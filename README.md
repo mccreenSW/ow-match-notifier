@@ -32,9 +32,9 @@ Overwatch 2 の試合開始時の通信量の急増を検知し、Discord へ通
 [Settings]
 webhook_url = [https://discord.com/api/webhooks/xxxx](https://discord.com/api/webhooks/xxxx)...（あなたのURL）
 packet_threshold = 150
-
+```
 ※ packet_threshold（閾値）は、メニュー画面で誤検知する場合は数値を大きく（200〜300）調整してください。
-
+```ini
 3. 監視の開始
 設定後、再度 overwatch_watch.exe を実行します。「監視開始」と表示されれば成功です。
 マッチングを検知するとDiscordに通知が飛び、監視が一時停止します。
@@ -47,3 +47,4 @@ packet_threshold = 150
 パケットを直接読み取るため、管理者権限で実行する仕様です。
 
 Overwatch が起動していない状態ではポートを特定できないため、ゲームを起動してから実行することをお勧めします。
+
