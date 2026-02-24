@@ -38,11 +38,10 @@ Overwatch 2 の試合開始時の通信量の急増を検知し、Discord へ通
 
 1\. `config.properties` を作成し、以下のように設定します。
 
-&nbsp;  ```ini
-
 &nbsp;  \[Settings]
 
 &nbsp;  webhook\_url = YOUR\_DISCORD\_WEBHOOK\_URL
 
 &nbsp;  packet\_threshold = 150
+
 
