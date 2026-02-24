@@ -26,7 +26,7 @@ Overwatch 2 の試合開始時の通信量の急増を検知し、Discord へ通
 
 1\. \*\*Npcap のインストール\*\*:
 
-&nbsp;  パケット監視のために \[Npcap](https://npcap.com/) のインストール（WinPcap互換モードにチェック）が必要です。
+&nbsp;  パケット監視のために \[Npcap](https://npcap.com/) のインストール（WinPcap互換モードにチェック）が必要です。（インストール後、再起動）
 
 &nbsp;  https://npcap.com/dist/
 
@@ -45,6 +45,7 @@ Overwatch 2 の試合開始時の通信量の急増を検知し、Discord へ通
 &nbsp;  webhook\_url = YOUR\_DISCORD\_WEBHOOK\_URL
 
 &nbsp;  packet\_threshold = 150
+
 
 
 
