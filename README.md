@@ -23,7 +23,7 @@ Overwatch 2 の試合開始時の通信量の急増を検知し、Discord へ通
 ## 🚀 使い方
 
 ### 1. 初回起動（設定ファイルの生成）
-`overwatch_watch.exe` を**実行してください。
+`overwatch_watch.exe` を実行してください。
 初回起動時、exeと同じフォルダに `config.properties` が自動生成されます。
 
 ### 2. Webhookの設定
@@ -46,3 +46,4 @@ packet_threshold = 150
 パケットを直接読み取るため、必ず管理者権限で実行する必要があります。
 
 Overwatch 2が起動していない状態ではポートを特定できないため、ゲームを起動してから実行することをお勧めします。
+
