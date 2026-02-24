@@ -1,4 +1,4 @@
-<img width="907" height="692" alt="image" src="https://github.com/user-attachments/assets/bdd4f203-4bc8-4c8b-a915-87e8cb1e2be4" />
+<img width="907" height="692" alt="aaa" src="https://github.com/user-attachments/assets/c2cf23da-b502-46bd-8957-c5f5c934aded" />
 
 \# Overwatch マッチング通知ツール
 
@@ -45,6 +45,7 @@ Overwatch 2 の試合開始時の通信量の急増を検知し、Discord へ通
 &nbsp;  webhook\_url = YOUR\_DISCORD\_WEBHOOK\_URL
 
 &nbsp;  packet\_threshold = 150
+
 
 
 
