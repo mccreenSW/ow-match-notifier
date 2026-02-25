@@ -1,6 +1,6 @@
 
 # Overwatch マッチング通知ツール
-<img width="907" height="692" alt="aaa" src="https://github.com/user-attachments/assets/c2cf23da-b502-46bd-8957-c5f5c934aded" />
+<img width="899" height="707" alt="image" src="https://github.com/user-attachments/assets/04a9c8c4-4897-4a65-9442-127821c2662a" />
 
 Overwatch 2 の試合開始時の通信量の急増を検知し、Discord へ通知を送るツールです。
 マッチング待機中に裏画面で作業や休憩をしている方に最適です。
@@ -47,4 +47,5 @@ packet_threshold = 150
 パケットを直接読み取るため、管理者権限で実行する仕様です。
 
 Overwatch が起動していない状態ではポートを特定できないため、ゲームを起動してから実行することをお勧めします。
+
 
